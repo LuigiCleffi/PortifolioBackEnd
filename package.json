@@ -1,0 +1,23 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": ">\r > [ ] Title function field (ex.:Web developer)  \r > [ ] Main tasks field (ex.:React | Express JS | Node) [TOP 3]  \r > [ ] Description field",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
