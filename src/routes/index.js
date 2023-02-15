@@ -1,6 +1,7 @@
 import express  from "express";
 import bio from './bioRoutes.js'
 import users from './userRoutes.js'
+import projects from './projectsRoute.js'
 
 const routes = (app) => {
     app.route('/').get((req, res) => {
@@ -10,7 +11,8 @@ const routes = (app) => {
     app.use(
         express.json(),
         bio,
-        users
+        users,
+        projects
     )
 }
 

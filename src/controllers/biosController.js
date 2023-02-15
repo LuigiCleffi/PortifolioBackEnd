@@ -46,7 +46,7 @@ class BiosController{
         })
     }
     static updateListBioByUser = (req, res) => {
-        const {id} = req.params
+        const {id} = req.params 
         bios.findByIdAndUpdate(id, {$set: req.body}, (err) => {
             if(!err){
                 res.status(200).send({message: "Bio updated successfuly"})
